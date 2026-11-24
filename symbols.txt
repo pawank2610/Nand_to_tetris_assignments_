@@ -1,0 +1,46 @@
+==================================================
+ Hack Assembler Symbol Table Export
+ Student Personal Number K: 52
+==================================================
+
+[LABELS (ROM Addresses)]:
+Label Name                ROM Address (Dec)    ROM Address (Hex)
+-----------------------------------------------------------------
+MAIN_LOOP                 0                    0x0000
+KEY_PRESSED               8                    0x0008
+START_DRAW                10                   0x000A
+ROW_LOOP                  18                   0x0012
+
+[USER VARIABLES (RAM Addresses starting from 16)]:
+Variable Name             RAM Address (Dec)    RAM Address (Hex)
+-----------------------------------------------------------------
+color                     16                   0x0010
+row_addr                  17                   0x0011
+row_count                 18                   0x0012
+
+[PREDEFINED SYMBOLS]:
+Symbol Name               Address (Dec)        Address (Hex)
+-----------------------------------------------------------------
+SP                        0                    0x0000
+R0                        0                    0x0000
+LCL                       1                    0x0001
+R1                        1                    0x0001
+ARG                       2                    0x0002
+R2                        2                    0x0002
+THIS                      3                    0x0003
+R3                        3                    0x0003
+THAT                      4                    0x0004
+R4                        4                    0x0004
+R5                        5                    0x0005
+R6                        6                    0x0006
+R7                        7                    0x0007
+R8                        8                    0x0008
+R9                        9                    0x0009
+R10                       10                   0x000A
+R11                       11                   0x000B
+R12                       12                   0x000C
+R13                       13                   0x000D
+R14                       14                   0x000E
+R15                       15                   0x000F
+SCREEN                    16384                0x4000
+KBD                       24576                0x6000
